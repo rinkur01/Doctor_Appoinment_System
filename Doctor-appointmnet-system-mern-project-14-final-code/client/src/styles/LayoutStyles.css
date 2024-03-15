@@ -1,0 +1,127 @@
+
+.main {
+  padding: 10px;
+  height: 100vh;
+}
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  min-height: 100%;
+  width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 2px gray;
+  margin-right: 20px;
+
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 10vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+  background-color: white;
+}
+.body {
+  height: 85vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px gray;
+  background-color: white;
+}
+.logo h6 {
+ 
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0px;
+  color: black;
+}
+.menu {
+  margin-top: 50px;
+ 
+  color: #007BFF; /* Change the color to your preferred color */
+  
+}
+.menu-item {
+  margin-top: 30px;
+  color: #007BFF;
+}
+.menu-item a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #007BFF;
+}
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+  color: #007BFF;
+}
+.active {
+  background-color: white;
+  padding: 10px;
+  color: #007BFF;
+}
+.active a,
+.active i {
+  color: rgb(51, 1, 1);
+  color: #007BFF;
+  
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: flex-end;
+  margin: 0 15px;
+  color: #007BFF;
+}
+
+.header-content i {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+.header-content a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #007BFF;;
+  margin: 0 10px;
+  text-transform: uppercase;
+  
+}
+/* Logo styling */
+.logo {
+  width: 100px; /* Adjust the width of the logo as needed */
+  height: 100px; /* Adjust the height of the logo as needed */
+  border-radius: 50%; /* Make the logo rounded */
+  overflow: hidden; /* Hide overflow for the rounded effect */
+  background-image: url('./FmDlogo.png'); /* Set the path to your image */
+  background-size: cover; /* Adjust background size as needed */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image */
+  margin-right: 20px; /* Add spacing between the logo and app name */
+}
+
+
+.logo h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px 0;
+  color: #007BFF; /* Change the color to your preferred color */
+  font-weight: bold; /* You can adjust the font weight as needed */
+  text-transform: uppercase; /* Apply uppercase to the text */
+}
+
+/* Optional: Add styling to the logo image (if applicable) */
+.logo img {
+  max-width: 100px; /* Adjust the maximum width as needed */
+  height: auto;
+  display: block; /* Center the image horizontally */
+  margin: 0 auto; /* Center the image horizontally */
+}

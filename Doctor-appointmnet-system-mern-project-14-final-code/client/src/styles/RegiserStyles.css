@@ -1,0 +1,44 @@
+body {
+  background-color: #1abc9c;
+  margin: 0; /* Remove default body margin */
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #a4daf4, #FFFFFF); /* Gradient background for the login container */
+  border-radius: 10px; /* Add rounded corners to the container */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
+  padding: 20px; /* Reduce padding to make it look sleeker */
+}
+
+.register-form {
+  border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.8); /* Use a semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners to the form */
+}
+
+h3 {
+  font-size: 1.5rem; /* Increase the font size for better visibility */
+  text-align: center;
+  color: #628292;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px; /* Add some spacing between the title and the form */
+}
+a
+{
+  color: #628292;
+}
+btn:hover {
+ 
+  background-color: #628292;
+  border-color: black;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #628292;
+}

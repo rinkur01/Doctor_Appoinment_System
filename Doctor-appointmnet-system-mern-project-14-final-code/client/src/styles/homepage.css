@@ -1,0 +1,8 @@
+h1{
+    font-size: 1.2rem;
+  text-align: center;
+  margin: 20px 0;
+  color: #007BFF; /* Change the color to your preferred color */
+  font-weight: bold; /* You can adjust the font weight as needed */
+  text-transform: uppercase; 
+}
